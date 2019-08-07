@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<GridLayout
+    android:id="@+id/grid"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:rowCount="3"
+    android:columnCount="4">
+
+    <TextView
+        android:id="@+id/huruA"
+        android:text="A"
+        android:padding="20dp"
+        android:textSize="45sp"
+        />
+
+    <TextView
+        android:id="@+id/huruB"
+        android:text="B"
+        android:padding="20dp"
+        android:textSize="45sp"
+        />
+
+    <TextView
+        android:id="@+id/hurufC"
+        android:text="C"
+        android:padding="20dp"
+        android:textSize="45sp"
+        />
+
+    <TextView
+        android:id="@+id/hurufD"
+        android:text="D"
+        android:padding="20dp"
+        android:textSize="45sp"
+        />
+
+    <TextView
+        android:id="@+id/hurufE"
+        android:text="E"
+        android:padding="20dp"
+        android:textSize="45sp"
+        />
+
+    <TextView
+        android:id="@+id/hurufF"
+        android:text="F"
+        android:padding="20dp"
+        android:textSize="45sp"
+        />
+
+    <TextView
+        android:id="@+id/hurufG"
+        android:text="G"
+        android:padding="20dp"
+        android:textSize="45sp"
+        />
+
+    <TextView
+        android:id="@+id/hurufH"
+        android:text="H"
+        android:padding="20dp"
+        android:textSize="45sp"
+        />
+
+    <TextView
+        android:id="@+id/hurufI"
+        android:text="I"
+        android:padding="20dp"
+        android:textSize="45sp"
+        />
+
+    <TextView
+        android:id="@+id/hurufJ"
+        android:text="J"
+        android:padding="20dp"
+        android:textSize="45sp"
+        />
+
+    <TextView
+        android:id="@+id/hurufK"
+        android:text="K"
+        android:padding="20dp"
+        android:textSize="45sp"
+        />
+
+    <TextView
+        android:id="@+id/hurufL"
+        android:text="L"
+        android:padding="20dp"
+        android:textSize="45sp"
+        />
+
+</GridLayout>
+
+    <Button
+        android:id="@+id/pindah6"
+        android:layout_margin="20dp"
+        android:text="Pindah Lagi"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grid"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
